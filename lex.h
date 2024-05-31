@@ -67,7 +67,7 @@ typedef struct {
   char  token[lex_TOKEN_MAXLEN+1]; /* トークンそのもの */
   int  token_len; /* トークン長 */
   int  val; /* 整数リテラルや文字リテラルの値 */
-  lex_trace_t  trace; /* デバッグ用のトレース情報出力のモード */
+  lex_trace_t trace; /* デバッグ用のトレース情報出力のモード */
 } lex_t;
 
 
